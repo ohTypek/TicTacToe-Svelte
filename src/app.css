@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap'); */
+
+* {
+  box-sizing: inherit;
+}
+
+:root {
+  --bg-color: #002f41;
+  --board-color: #ff4550;
+
+  --field-size: 100px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #fff;
+  /* font-family: "Protest Strike", sans-serif; */
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
